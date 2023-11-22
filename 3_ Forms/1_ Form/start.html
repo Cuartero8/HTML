@@ -18,12 +18,54 @@
   <body>
 
     <form>
-      <label id="email">Email: </label>
+      <label for="email">Email:</label>   <!--Email-->
       <input type="email" name="email" id="email">
-      <label id="password">Password: </label>
+
+      <label for="password">Password:</label>   <!--Password-->
       <input type="password" name="password" id="password">
-      <label id="completeName">Name & Lastname</label>
+
+      <label for="completeName">Name & Lastname:</label>    <!--Name-->
       <input type="text" name="completeName" id="completeName">
+
+      <label for="dateOfBirth">Date of birth:</label>   <!--Birth-->
+      <input type="date" name="dateOfBirth" id="dateOfBirth">
+
+      <label for="phoneNumber">Phone number:</label>    <!--Number-->
+      <input type="tel" name="phoneNumber" id="phoneNumber">
+
+      <label for="plan">Plan:</label>   <!--Plan-->
+      <select name="plan" id="plan">
+        <option value="">
+          Choose your plan!
+        </option>
+        <option value="free">
+          Free plan
+        </option>
+        <option value="plan1">
+          Plan 1 (50€)
+        </option>
+        <option value="plan2">
+          Plan 2 (200€)
+        </option>
+        <option value="plan3">
+          Plan 3 (500€)
+        </option>   
+      </select>
+      <input type="checkbox" name="plan" value="pro">Make it pro!   <!--Pro plan-->
+
+      <label for="creditCard">Credit Card:</label>    <!--Credit card-->
+      <input type="number" name="creditCard" id="creditCard">
+
+      <label for="CVC">CVC:</label>   <!--CVC-->
+      <input type="number" name="CVC" id="CVC">
+
+      <label for="expDate">Expiration Date:</label>   <!--Exp-->
+      <input type="date" name="expDate" id="expDate">
+
+      <label for="adress">Billing Adress:</label>   <!--Address-->
+      <input type="text" name="adress" id="adress">
+
+      <button type="submit">Submit</button>   <!--Button-->
     </form>
 
 
