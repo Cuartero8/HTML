@@ -8,6 +8,44 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML Lesson</title>
+    <link rel="icon" href="./assets/laptop.png" type="image/png"/>
   </head>
-  <body></body>
+
+  <body>
+
+    <header>
+      <h1>Blog Page</h1>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Programando de chill</h2>
+          <p>Aquí finiquitando el html que me quiero ir ya a hacer css. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nesciunt a rem fuga hic quia dicta est accusantium ab reiciendis nobis, at ducimus asperiores dolores aliquid quidem eius sint eveniet? Illum placeat ullam cupiditate optio, aliquid impedit tempore provident at!</p>
+          <img alt="Imagen de Pc" src="./assets/hands.png"/>
+        </article>
+        <fieldset>
+          <legend>Comparte tu opinión</legend>
+          <form method="get">
+            <label for="name"><abbr title="1ª letra en mayuscula requerido">Nombre:</abbr></label>  <!--Nombre con 1ª letra mayuscula - no obligatorio-->
+            <input id="name" name="name" pattern="[A-Z]{1}[a-z]{1,}" maxlength="15"/>
+
+            <textarea rows="5" cols="20" placeholder="Dejanos tu opinión"></textarea>   <!--Opinion del usuario - no obligatorio-->
+
+            <label for="email">Email<abbr title="campo obligatorio">*</abbr></label>   <!--Email del usuario - obligatorio-->
+            <input id="email" name="email" type="email" maxlength="30" required/>
+
+            <button type="submit">Enviar bb</button>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+
+    <footer>
+      &copy;CarlitolocoSA <a href="#">blogs-de-locos.com</a>
+    </footer>
+
+
+  </body>
 </html>
